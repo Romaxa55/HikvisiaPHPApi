@@ -1,13 +1,5 @@
 #!/usr/bin/php -q
 <?php
-/*
- * Powered By Shamagin Roman 2018 &copy
- *
- * ЗАКОНЧИЛ НА НТП ВЫВОД ДАТЫ НУЖНО СДЕЛАТЬ ПОНЯТНЫМ И ФУНКЦИИ ПО НАСТРОЙКИ ДАТ
- *
- *
- *
- */
 
 error_reporting(0);
 
@@ -15,7 +7,7 @@ error_reporting(0);
 class hik
 {
 
-    private $version = "1.0";
+    private $version = "1.1";
     private $home_dir = '/home/ts/connect/connect.conf';
     private $xml; // Временные объект xml
     private $statusHardware;
